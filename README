@@ -4,6 +4,9 @@ README for USB_ModeSwitch Data
 For up-to-date and detailed information (plus a friendly forum) visit
 http://www.draisberghof.de/usb_modeswitch
 
+PLEASE REPORT NEW DEVICES
+
+
 
 This is a data package to complement the full release package of
 USB_ModeSwitch, a tool to switch multi-mode (or composite) USB devices.
@@ -48,9 +51,6 @@ Notes about specific devices:
   not enough information how to tell them apart; if you have the second
   one, we badly need information (usb_modeswitch output with SCSI inquiry)
 
-- 19d2:2000 (ZTE): finally dumped "eject" command completely; the other
-  command seems to work well with the older models
-
 
 Legal
 =====
@@ -71,5 +71,4 @@ Or find it as the file COPYING in this folder.
 
 
 
-Last revised: 2010-03-22, Josua Dietze
-
+Last revised: 2010-04-03, Josua Dietze

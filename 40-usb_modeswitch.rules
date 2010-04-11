@@ -264,6 +264,9 @@ ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0053", RUN+="usb_modeswitch '%b/%k'"
 # Vodafone(ZTE) K4505-Z
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0101", RUN+="usb_modeswitch '%b/%k'"
 
+# ZTE MF651
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0115", RUN+="usb_modeswitch '%b/%k'"
+
 # Vodafone(ZTE) K3805-Z
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1001", RUN+="usb_modeswitch '%b/%k'"
 

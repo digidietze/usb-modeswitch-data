@@ -237,6 +237,9 @@ ATTRS{idVendor}=="1410", ATTRS{idProduct}=="5030", RUN+="usb_modeswitch '%b/%k'"
 # Novatel MC760 3G
 ATTRS{idVendor}=="1410", ATTRS{idProduct}=="5031", RUN+="usb_modeswitch '%b/%k'"
 
+# Novatel MiFi 2352
+ATTRS{idVendor}=="1410", ATTRS{idProduct}=="5041", RUN+="usb_modeswitch '%b/%k'"
+
 # Motorola 802.11 bg WLAN (TER/GUSB3-E)
 ATTRS{idVendor}=="148f", ATTRS{idProduct}=="2578", RUN+="usb_modeswitch '%b/%k'"
 

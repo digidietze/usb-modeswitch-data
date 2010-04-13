@@ -177,6 +177,9 @@ ATTRS{idVendor}=="0af0", ATTRS{idProduct}=="d257", RUN+="usb_modeswitch '%b/%k'"
 # Option HSO device
 ATTRS{idVendor}=="0af0", ATTRS{idProduct}=="d357", RUN+="usb_modeswitch '%b/%k'"
 
+# Sony Ericsson MD300
+ATTRS{idVendor}=="0fce", ATTRS{idProduct}=="d0cf", RUN+="usb_modeswitch '%b/%k'"
+
 # Sony Ericsson MD400
 ATTRS{idVendor}=="0fce", ATTRS{idProduct}=="d0e1", RUN+="usb_modeswitch '%b/%k'"
 

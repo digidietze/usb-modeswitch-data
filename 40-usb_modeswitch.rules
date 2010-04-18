@@ -1,7 +1,16 @@
-# This is part of USB_ModeSwitch version 1.x.x
+# Part of usb-modeswitch-data, version 20100418
 #
+# This file is intended for USB_ModeSwitch version >= 1.0.3
+#
+
 ACTION!="add", GOTO="modeswitch_rules_end"
+
+# This adds a symlink "gsmmodem[n]" to the right (interrupt) ttyUSB port;
+# will work only with wrapper 1.1.2 and above (otherwise ignored)
+KERNEL=="ttyUSB*", PROGRAM="/usr/bin/tclsh /lib/udev/usb_modeswitch symlink name %p", SYMLINK="%c"
+
 SUBSYSTEM!="usb", GOTO="modeswitch_rules_end"
+
 
 # All known install partitions are on interface 0
 ATTRS{bInterfaceNumber}!="00", GOTO="modeswitch_rules_end"
@@ -219,7 +228,7 @@ ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="101e", RUN+="usb_modeswitch '%b/%k'"
 # Huawei E180
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="1414", RUN+="usb_modeswitch '%b/%k'"
 
-# Huawei E270+  (HSPA+ modem)
+# Huawei E270+ (HSPA+ modem)
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="1446", RUN+="usb_modeswitch '%b/%k'"
 
 # Huawei K3765
@@ -261,25 +270,25 @@ ATTRS{idVendor}=="198f", ATTRS{idProduct}=="bccd", RUN+="usb_modeswitch '%b/%k'"
 # ZTE AC581
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0026", RUN+="usb_modeswitch '%b/%k'"
 
-# Vodafone(ZTE) K2525
+# Vodafone (ZTE) K2525
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0040", RUN+="usb_modeswitch '%b/%k'"
 
 # ZTE MF110
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0053", RUN+="usb_modeswitch '%b/%k'"
 
-# Vodafone(ZTE) K4505-Z
+# Vodafone (ZTE) K4505-Z
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0101", RUN+="usb_modeswitch '%b/%k'"
 
 # ZTE MF651
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0115", RUN+="usb_modeswitch '%b/%k'"
 
-# Vodafone(ZTE) K3805-Z
+# Vodafone (ZTE) K3805-Z
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1001", RUN+="usb_modeswitch '%b/%k'"
 
-# Vodafone(ZTE) K3570-Z
+# Vodafone (ZTE) K3570-Z
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1007", RUN+="usb_modeswitch '%b/%k'"
 
-# Vodafone(ZTE) K3571-Z
+# Vodafone (ZTE) K3571-Z
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1009", RUN+="usb_modeswitch '%b/%k'"
 
 # ZTE devices

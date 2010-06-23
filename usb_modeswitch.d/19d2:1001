@@ -1,5 +1,5 @@
 ########################################################
-# Vodafone(ZTE) K3805-Z
+# Vodafone (ZTE) K3805-Z
 #
 # Note:
 #      This device has multiple USB profiles. Depending upon how it is flipped
@@ -12,6 +12,9 @@ DefaultProduct=0x1001
 TargetVendor=  0x19d2
 TargetProduct= 0x1003
 
+MessageContent="5553424312345678000000000000061b000000020000000000000000000000"
+
+NeedResponse=1
+
 CheckSuccess=20
 
-MessageContent="5553424312345678000000000000061b000000020000000000000000000000"

@@ -294,6 +294,9 @@ ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1007", RUN+="usb_modeswitch '%b/%k'"
 # Vodafone(ZTE) K3571-Z
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1009", RUN+="usb_modeswitch '%b/%k'"
 
+# Vodafone (ZTE) K3806-Z
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1013", RUN+="usb_modeswitch '%b/%k'"
+
 # ZTE devices
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="2000", RUN+="usb_modeswitch '%b/%k'"
 

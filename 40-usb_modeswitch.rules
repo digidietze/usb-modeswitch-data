@@ -274,7 +274,7 @@ ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="1446", RUN+="usb_modeswitch '%b/%k'"
 # Vodafone (Huawei) K4605
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14c1", RUN+="usb_modeswitch '%b/%k'"
 
-# Huawei K3805
+# Huawei K3806
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14ad", RUN+="usb_modeswitch '%b/%k'"
 
 # Huawei K3765
@@ -351,6 +351,9 @@ ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1007", RUN+="usb_modeswitch '%b/%k'"
 
 # Vodafone (ZTE) K3571-Z
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1009", RUN+="usb_modeswitch '%b/%k'"
+
+# Vodafone (ZTE) K3806-Z
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1013", RUN+="usb_modeswitch '%b/%k'"
 
 # ZTE devices
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="2000", RUN+="usb_modeswitch '%b/%k'"

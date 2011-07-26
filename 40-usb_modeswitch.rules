@@ -337,6 +337,9 @@ ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14ad", RUN+="usb_modeswitch '%b/%k'"
 # Huawei E173 (Viettel 3G)
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14b5", RUN+="usb_modeswitch '%b/%k'"
 
+# Vodafone (Huawei) K4511
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14b7", RUN+="usb_modeswitch '%b/%k'"
+
 # Vodafone (Huawei) K4605
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14c1", RUN+="usb_modeswitch '%b/%k'"
 

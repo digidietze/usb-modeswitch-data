@@ -466,6 +466,9 @@ ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1009", RUN+="usb_modeswitch '%b/%k'"
 # Vodafone (ZTE) K3806-Z
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1013", RUN+="usb_modeswitch '%b/%k'"
 
+# Vodafone (ZTE) K3770-Z
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1175", RUN+="usb_modeswitch '%b/%k'"
+
 # ZTE MF691 (T-Mobile Rocket 2.0)
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1201", RUN+="usb_modeswitch '%b/%k'"
 

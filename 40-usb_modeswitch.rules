@@ -340,13 +340,26 @@ ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14ad", RUN+="usb_modeswitch '%b/%k'"
 # Huawei E173 (Viettel 3G)
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14b5", RUN+="usb_modeswitch '%b/%k'"
 
+# Vodafone (Huawei) K4511
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14b7", RUN+="usb_modeswitch '%b/%k'"
+
 # Vodafone (Huawei) K4605
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14c1", RUN+="usb_modeswitch '%b/%k'"
 
+<<<<<<< HEAD:40-usb_modeswitch.rules
 # Vodafone/Huawei K3771
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14c4", RUN+="usb_modeswitch '%b/%k'"
 
 # Vodafone/Huawei K3770
+=======
+# Vodafone (Huawei) K3771
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14c4", RUN+="usb_modeswitch '%b/%k'"
+
+# Vodafone (Huawei) K4510
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14c5", RUN+="usb_modeswitch '%b/%k'"
+
+# Vodafone (Huawei) K3770
+>>>>>>> 80d89329c901629b82801ba8de5e8ddb475e1a98:40-usb_modeswitch.rules
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14d1", RUN+="usb_modeswitch '%b/%k'"
 
 # T-Mobile NL (Huawei E352)
@@ -465,6 +478,15 @@ ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1009", RUN+="usb_modeswitch '%b/%k'"
 
 # Vodafone (ZTE) K3806-Z
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1013", RUN+="usb_modeswitch '%b/%k'"
+
+# Vodafone (ZTE) K4510-Z
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1171", RUN+="usb_modeswitch '%b/%k'"
+
+# Vodafone (ZTE) K3770-Z
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1175", RUN+="usb_modeswitch '%b/%k'"
+
+# Vodafone (ZTE) K3772-Z
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1179", RUN+="usb_modeswitch '%b/%k'"
 
 # ZTE MF691 (T-Mobile Rocket 2.0)
 ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1201", RUN+="usb_modeswitch '%b/%k'"

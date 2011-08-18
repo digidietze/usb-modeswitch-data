@@ -346,12 +346,6 @@ ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14b7", RUN+="usb_modeswitch '%b/%k'"
 # Vodafone (Huawei) K4605
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14c1", RUN+="usb_modeswitch '%b/%k'"
 
-<<<<<<< HEAD:40-usb_modeswitch.rules
-# Vodafone/Huawei K3771
-ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14c4", RUN+="usb_modeswitch '%b/%k'"
-
-# Vodafone/Huawei K3770
-=======
 # Vodafone (Huawei) K3771
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14c4", RUN+="usb_modeswitch '%b/%k'"
 
@@ -359,7 +353,6 @@ ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14c4", RUN+="usb_modeswitch '%b/%k'"
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14c5", RUN+="usb_modeswitch '%b/%k'"
 
 # Vodafone (Huawei) K3770
->>>>>>> 80d89329c901629b82801ba8de5e8ddb475e1a98:40-usb_modeswitch.rules
 ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14d1", RUN+="usb_modeswitch '%b/%k'"
 
 # T-Mobile NL (Huawei E352)

@@ -101,6 +101,9 @@ ATTRS{idVendor}=="07d1", ATTRS{idProduct}=="a800", RUN+="usb_modeswitch '%b/%k'"
 # D-Link DWM-156 HSUPA 3.75G USB Modem
 ATTRS{idVendor}=="07d1", ATTRS{idProduct}=="a804", RUN+="usb_modeswitch '%b/%k'"
 
+# D-Link DWM-156 HSUPA 3.75G USB Modem (H/W Ver: A7)
+ATTRS{idVendor}=="2001", ATTRS{idProduct}=="a706", RUN+="usb_modeswitch '%b/%k'"
+
 # Toshiba G450
 ATTRS{idVendor}=="0930", ATTRS{idProduct}=="0d46", RUN+="usb_modeswitch '%b/%k'"
 
